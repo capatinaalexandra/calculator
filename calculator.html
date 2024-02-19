@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./calculator.css">
+    <title>Calculator project</title>
+</head>
+
+
+<body>
+    <div class="containerCalculator">
+        <div class="containerDisplay" id="result">0</div>
+        <div class="containerOperators">
+            <button onclick="addResult('+')" id="plus">+</button>
+            <button onclick="addResult('-')" id="minus">-</button>
+            <button onclick="addResult('*')" id="add">*</button>
+            <button onclick="addResult('/')" id="imp">/</button>
+            
+        </div>
+        <!-- <div class="containerNumbersEqual"> -->
+         <div class="containerNumber">
+            <div class="numbers">
+                <button onclick="addResult('7')" id="seven">7</button>
+                <button onclick="addResult('8')" id="eigth">8</button>
+                <button onclick="addResult('9')" id="nine">9</button>
+                </div>
+            <div class="numbers">
+                <button onclick="addResult('4')" id="four">4</button>
+                <button onclick="addResult('5')" id="five">5</button>
+                <button onclick="addResult('6')" id="six">6</button>
+            </div>
+            <div class="numbers">
+                <button onclick="addResult('1')" id="one">1</button>
+                <button onclick="addResult('2')" id="two">2</button>
+                <button onclick="addResult('3')" id="three">3</button>
+            </div>
+            <div class="numbers">
+                <button onclick="addResult('0')" id="zero">0</button>
+                <button onclick="addResult('.')" id="dot">.</button>
+                <button onclick="clearResult()" id="clear">C</button>
+              
+            </div>
+           
+        </div>
+
+            <div class="containerEgal">
+                <button onclick="calculateResult()" id="egal">=</button>
+            </div>
+         <!-- </div> -->
+      
+    </div>
+
+
+    <script src="./calculator.js"></script>
+
+</body>
+</html>
+
